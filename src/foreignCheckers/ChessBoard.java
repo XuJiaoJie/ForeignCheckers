@@ -24,6 +24,7 @@ public class ChessBoard extends JPanel implements MouseListener{
 	private static final Image WhiteKingImage = toolkit.getImage("res/whiteKing.png");
 	private static final String[] bgStrings = new String[]{"res/bg.jpg","res/bg1.jpg","res/bg2.jpg","res/bg3.jpg"};
 	private int bgIndex = 0;
+	
 	private Image bg = toolkit.getImage(bgStrings[0]);
 	private Image bg1 = toolkit.getImage(bgStrings[1]);
 	private Image bg2= toolkit.getImage(bgStrings[2]);
@@ -47,7 +48,6 @@ public class ChessBoard extends JPanel implements MouseListener{
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-//		this.setSize(496,516);
 		this.addMouseListener(this);
 		this.robot = robot;
 	}
@@ -157,9 +157,6 @@ public class ChessBoard extends JPanel implements MouseListener{
 		for(int i=0;i<12;i++){
 			white[i].setSelected(false);
 		}
-//		if (selectedChess!=null) {
-//			selectedChess.setSelected(true);
-//		}
 		for(int i=0;i<12;i++){
 			if (white[i].isVisible() && white[i].getLocation().equals(selectedPoint)) {
 				selectedChess = white[i];
@@ -298,7 +295,6 @@ public class ChessBoard extends JPanel implements MouseListener{
 		}else {
 			bgIndex++;
 		}
-//		bg = toolkit.getImage(bgStrings[bgIndex]);
 		repaint();
 	}
 	
