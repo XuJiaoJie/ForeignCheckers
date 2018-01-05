@@ -23,9 +23,12 @@
 1）游戏开始界面调试情况
 
 ![](http://otpesi023.bkt.clouddn.com/%E8%A5%BF%E6%B4%8B%E8%B7%B3%E6%A3%8B1.jpg)
-2）走棋调试 
+
+2）走棋调试情况 
 
 ![](http://otpesi023.bkt.clouddn.com/%E8%A5%BF%E6%B4%8B%E8%B7%B3%E6%A3%8B2.jpg)
-3）胜负判断调试 
+
+3）胜负判断调试情况 
 
 ![](http://otpesi023.bkt.clouddn.com/%E8%A5%BF%E6%B4%8B%E8%B7%B3%E6%A3%8B3.jpg)
+
